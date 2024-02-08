@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Pearl's Ice Cream</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/sweetpearl_logo.webp" type="image/x-icon">
+    <!-- Font Awesome CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- Bootsrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Animations AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="loader"><img src="assets/images/preloader.svg" class="img-fluid" alt=""></div>
+    </div>
+    <!-- Go To Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Scroll Up">
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </button>
+    <!-- Header Section Starts -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-box">
+                <div class="site-branding">
+                    <div class="header_logo">
+                        <a href="index.html"><img class="img-fluid site-logo"
+                                src="assets/images/sweetpearl_logo.webp" alt="">
+                        </a>
+                    </div>
+                    <div id="toggler" class="mobile-toggle">
+                        <button class="hamburger hamburger-one"></button>
+                    </div>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="catering.html">Catering</a></li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="javascript:void(0)">Our Flavors <i class="fa fa-angle-down"
+                                    aria-hidden="true"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="javascript:void(0)">Just Here for a Good Time</a></li>
+                                <li><a href="javascript:void(0)">Here for a Long Time</a></li>
+                                <li><a href="javascript:void(0)">Vegan</a></li>
+                                <li><a href="javascript:void(0)">All Flavors</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="javascript:void(0)">About Us <i class="fa fa-angle-down"
+                                    aria-hidden="true"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="about.html">How We Got Here</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="store_locator.html">Store Locator</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons-box">
+                    <ul>
+                        <li><a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-user-o fw-bold" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="margin-top"></div>
+    <!-- Header Section Ends -->
+
+    <section class="page-title centred" style="background-image: url(assets/images/catering-banner.jpg);"
+        data-aos="fade-in">
+        <span class="overlay"></span>
+        <div class="container">
+            <div class="content-box">
+                <div class="title" data-aos="fade-down">
+                    <h1>Catering</h1>
+                </div>
+                <ul class="bread-crumb" data-aos="fade-up">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item">Catering</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="catering_section">
+        <div class="container">
+            <div class="catering_events">
+                <!-- <div class="cate_gif"><img class="img-fluid" src="assets/images/ice.gif" alt=""></div> -->
+                <h2 data-aos="fade-up">Ice Cream Catering & Events</h2>
+                <p data-aos="fade-up">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <div class="catering_features">
+                    <div class="catering_wrap">
+                        <div class="catering_img" data-aos="zoom-in">
+                            <img class="img-fluid" src="assets/images/catering_img_1.jpg" alt="">
+                        </div>
+                        <div class="catering_content">
+                            <h4  data-aos="fade-down">Scoops & Smiles</h4>
+                            <p  data-aos="fade-down">
+                                Weddings, birthdays, anniversaries, or any get together; memorable occasions deserve mouth watering flavours. So, place a Party Order, and we’ll bring to the bowl a variety of ice cream flavours that compliments every event. Havmor adds MORE scoops of sweetness to all your celebrations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="catering_wrap">
+                        <div class="catering_img" data-aos="zoom-in">
+                            <img class="img-fluid" src="assets/images/catering_img_2.jpg" alt="">
+                        </div>
+                        <div class="catering_content">
+                            <h4  data-aos="fade-down">The Big Freeze</h4>
+                            <p  data-aos="fade-down"> 
+                                Weddings, birthdays, anniversaries, or any get together; memorable occasions deserve mouth watering flavours. So, place a Party Order, and we’ll bring to the bowl a variety of ice cream flavours that compliments every event. Havmor adds MORE scoops of sweetness to all your celebrations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="scheduling_event">
+                    <h2 data-aos="fade-up">Scheduling an Event</h2>
+                    <p  data-aos="fade-up">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="catering_form">
+                        <form action="">
+                            <div class="form_cover"  data-aos="fade-down">
+                                <h6>CATERING PACKAGE(required)</h6>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="treet" id="1">
+                                    <label class="form-check-label" for="1">
+                                        Truck- SWEET TREAT (30 servings, 45mins)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="treet" id="2">
+                                    <label class="form-check-label" for="2">
+                                        Truck- SCOOPS + SMILES (50 servings, 60mins)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="treet" id="3">
+                                    <label class="form-check-label" for="3">
+                                        Truck- TIME TO PARTY (100 servings, 90mins)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="treet" id="4">
+                                    <label class="form-check-label" for="4">
+                                        Truck- THE BIG FREEZE (100 servings, 120mins and deluxe items)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="treet" id="5">
+                                    <label class="form-check-label" for="5">
+                                        Table Top- SCOOPS+TOPPINGS or ICE CREAM SANDWICH BAR or S'MORES BAR (min. 50 servings, 60mins)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="treet" id="6">
+                                    <label class="form-check-label" for="6">
+                                        Truck/Table Top- CUSTOM MENU (200+ servings)
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form_cover"  data-aos="fade-down">
+                                <fieldset>
+                                    <legend>Personal Details</legend>
+                                    <div class="row g-4">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                          <label for="" class="form-label">First Name</label>
+                                          <input type="text" class="form-control" placeholder="Please Enter First Name" aria-label="First name">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                          <label for="" class="form-label">Last Name</label>
+                                          <input type="text" class="form-control" placeholder="Please Enter Last Name" aria-label="Last name">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                            <label for="" class="form-label">Email</label>
+                                            <input type="email" class="form-control" placeholder="Please Enter Your Email">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                            <label for="" class="form-label">Phone</label>
+                                            <input type="text" class="form-control" placeholder="Please Enter Phone Number">
+                                        </div>
+                                        <div class="col-12 col-sm-12">
+                                            <label for="" class="form-label">Your Address</label>
+                                            <textarea class="form-control" rows="4" placeholder="Please Enter Your Full Address"></textarea>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="form_cover" data-aos="fade-down">
+                                <fieldset>
+                                    <legend>Event Details</legend>
+                                    <div class="row g-4">
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                          <label for="" class="form-label">Date</label>
+                                          <input type="date" class="form-control" placeholder="mm/dd/yyyy" aria-label="First name">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                          <label for="" class="form-label">Time</label>
+                                          <input type="text" class="form-control" placeholder="Please Enter Timing" aria-label="Last name">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                            <label for="" class="form-label">Number of People To Being Serve</label>
+                                            <input type="number" class="form-control" placeholder="Number of People">
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                            <label for="" class="form-label">Event Manager</label>
+                                            <input type="text" class="form-control" placeholder="Name of the person managing the event">
+                                        </div>
+                                        <div class="col-12 col-sm-12">
+                                            <label for="" class="form-label">Address of the Event</label>
+                                            <textarea class="form-control" rows="4" placeholder="Please Enter Your Full Address"></textarea>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="form_cover"  data-aos="fade-down">
+                                <div class="col-12 col-sm-12">
+                                    <textarea class="form-control" rows="6" placeholder="Please Add Notes"></textarea>
+                                </div>
+                            </div>
+                            <button data-aos="fade-down" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed Section Starts -->
+    <section class="insta_section">
+        <h4 class="insta_heading" data-aos="fade-up">#Instagram</h4>
+        <div class="swiper myInstaSlider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/duble_stuff.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/UberEatsSeaSaltCaramel.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="insta_box">
+                        <img class="img-fluid" src="assets/images/Fudge Brownies.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="gallary"><a href="javascript:void(0)">Go to our gallery</a></p>
+    </section>
+    <!-- Instagram Feed Section Ends -->
+    <!-- Newsletter section starts -->
+    <section class="newsletter_section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="newsletter_img" data-aos="fade-up">
+                        <img class="img-fluid" src="assets/images/newsletter_img.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="newsletter_form" data-aos="fade-up">
+                        <h3 class="subscribe" data-aos="fade-up">Subscribe our newsletter</h3>
+                        <p data-aos="fade-up">Follow us and receive deals up to 30% all item</p>
+                        <form class="form_flex" data-aos="fade-up">
+                            <input type="email" required placeholder="Enter your email...">
+                            <button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section Ends -->
+    <!-- Footer Section Starts -->
+    <footer class="site-footer">
+        <div class="top-footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="footer-logo-box">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img class="img-fluid" src="assets/images/sweetpearl_logo.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="our-flavors">
+                        <h2>Company Information</h2>
+                        <ul>
+                            <li><a href="javascript:void(0)">520 Shepherd Dr., Garland, TX 75042</a></li>
+                            <li><a href="javascript:void(0)">Ph. 469-215-5330</a></li>
+                            <li><a href="javascript:void(0)">info@sweetpearlsicecream.com</a></li>
+                            <li class="social">Follow Us: <a href="https://facebook.com/sweetpearlsicecream"
+                                    target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/sweet" target="_blank"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-box">
+                        <h2>About Us</h2>
+                        <ul>
+                            <li><a href="about.html">How We Got Here</a></li>
+                            <li><a href="javascript:void(0)">Help Center</a></li>
+                            <li><a href="javascript:void(0)">Address Store</a></li>
+                            <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-box">
+                        <h2>Profile</h2>
+                        <ul>
+                            <li><a href="javascript:void(0)">My Account</a></li>
+                            <li><a href="javascript:void(0)">Checkout</a></li>
+                            <li><a href="javascript:void(0)">Order Tracking</a></li>
+                            <li><a href="javascript:void(0)">Help & Suppport</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <p class="copy">© <span id="year"></span>, Sweet Pearl's Ice Cream | Designed & Developed by <a
+                                href="https://ogrelogic.com/" target="_blank">Ogrelogic</a> </p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <ul class="list-payment">
+                            <li class="list-payment-item"><img src="assets/images/amex.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/apple-pay.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/dc.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/discover.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/meta.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/g-pay.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/master-card.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/shop-pay.svg" alt=""></li>
+                            <li class="list-payment-item"><img src="assets/images/visa.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- Aos script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Bootstrap script -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- jQuery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Smooth Scroll by Lenis -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
